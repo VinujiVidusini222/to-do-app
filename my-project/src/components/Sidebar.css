@@ -1,0 +1,22 @@
+.sidebar {
+    width: 250px;
+    background-color: #4e248d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
