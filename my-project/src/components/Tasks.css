@@ -1,0 +1,32 @@
+.tasks {
+    flex: 2;
+  }
+  
+  .tasks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item.done .task-status {
+    color: green;
+  }
+  
+  .task-item.pending .task-status {
+    color: orange;
+  }
+  
+  .task-item.in-progress .task-status {
+    color: blue;
+  }
+  
+  .task-status, .task-date {
+    margin-left: 10px;
+  }
+  

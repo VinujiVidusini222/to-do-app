@@ -1,0 +1,24 @@
+.activity-feed {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .activity-feed ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activity-feed li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .activity-feed li b {
+    display: block;
+  }
+  
+  .activity-feed li small {
+    color: #666;
+  }
+  
